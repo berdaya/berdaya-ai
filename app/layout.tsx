@@ -11,15 +11,15 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Berdaya AI',
+    template: '%s | Berdaya AI Intro',
   },
-  description: 'This is my portfolio.',
+  description: 'Berdaya AI Introduction',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Berdaya AI',
+    description: 'Berdaya AI Introduction',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'Berdaya AI',
     locale: 'en_US',
     type: 'website',
   },
@@ -34,6 +34,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  icons: {
+    icon: 'icon.ico'
+  }
 }
 
 const cx = (...classes) => classes.filter(Boolean).join(' ')
