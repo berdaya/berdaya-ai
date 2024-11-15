@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
     default: 'Berdaya AI',
-    template: '%s | Berdaya AI Intro',
+    template: '%s | Berdaya AI',
   },
-  description: 'Berdaya AI Introduction',
+  description: 'Berdaya AI',
   openGraph: {
     title: 'Berdaya AI',
-    description: 'Berdaya AI Introduction',
+    description: 'Berdaya AI',
     url: baseUrl,
     siteName: 'Berdaya AI',
     locale: 'en_US',

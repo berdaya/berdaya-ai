@@ -10,7 +10,7 @@ export default function Page() {
     <section>
       <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Our Blog</h1>
       <p className='mb-4'>
-        Sorry, no blog posts available at the moment
+        Sorry, no blog posts available at the moment.
       </p>
       {/* <BlogPosts /> */}
     </section>
